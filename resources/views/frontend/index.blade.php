@@ -409,7 +409,7 @@
           </div>
            
 
-            <a href="{{ route('hebergement.inscription') }}" class="tic-btn tic-btn--primary" style="width:100%;justify-content:center;" id="hero-cta">
+            <a href="{{ route('hebergement.commander') }}" class="tic-btn tic-btn--primary" style="width:100%;justify-content:center;" id="hero-cta">
             Commander ce pack
           </a>
         </div>
@@ -567,7 +567,7 @@
             <li><svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Support technique inclus</li>
             <li class="disabled"><svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg> Multi-domaines</li>
           </ul>
-          <a href="{{ route('hebergement.inscription') }}" class="pricing__card-btn pricing__card-btn--outline">Commander →</a>
+          <a href="{{ route('hebergement.commander') }}" class="pricing__card-btn pricing__card-btn--outline">Commander →</a>
         </div>
       </div>
 
@@ -589,7 +589,7 @@
             <li><svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Support prioritaire</li>
             <li><svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Multi-domaines inclus</li>
           </ul>
-          <a href="{{ route('hebergement.inscription') }}" class="pricing__card-btn">Commander →</a>
+          <a href="{{ route('hebergement.commander') }}" class="pricing__card-btn">Commander →</a>
         </div>
       </div>
 
@@ -610,7 +610,7 @@
             <li><svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> Support VIP dédié</li>
             <li><svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg> 10 serveurs FTP privés</li>
           </ul>
-          <a href="{{ route('hebergement.inscription') }}" class="pricing__card-btn pricing__card-btn--outline">Commander →</a>
+          <a href="{{ route('hebergement.commander') }}" class="pricing__card-btn pricing__card-btn--outline">Commander →</a>
         </div>
       </div>
 
@@ -694,7 +694,7 @@
         <span class="tic-tag tic-tag--light">Installation en 1 clic</span>
         <h2 class="tic-heading" style="color:white;">+400 applications<br>prêtes à l'emploi</h2>
         <p class="tic-subtext tic-subtext--light">Grâce à Softaculous, installez WordPress, Joomla, PrestaShop ou n'importe quelle application en quelques secondes depuis votre cPanel.</p>
-        <a href="{{ url('webcompte.php') }}" class="tic-btn tic-btn--primary" style="margin-top:24px;">
+        <a href="{{ route('hebergement.commander') }}" class="tic-btn tic-btn--primary" style="margin-top:24px;">
           Démarrer maintenant
         </a>
       </div>

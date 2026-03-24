@@ -387,9 +387,9 @@
           </ul>
         </li>
 
-        <!-- <li class="tic-nav__item" role="none">
-          <a href="#" class="tic-nav__link" role="menuitem">Contact</a>
-        </li> -->
+        <li class="tic-nav__item" role="none">
+          <a href="https://ticafrique.com" class="tic-nav__link" role="menuitem">Portail</a>
+        </li>
 
       </ul>
     </nav>
@@ -397,7 +397,7 @@
     {{-- Desktop CTAs --}}
     <div class="tic-header__actions">
       <a href="#" class="tic-header__btn tic-header__btn--ghost">Connexion</a>
-      <a href="{{ route('hebergement.inscription') }}" class="tic-header__btn tic-header__btn--primary">
+      <a href="{{ route('hebergement.commander') }}" class="tic-header__btn tic-header__btn--primary">
         Commander
       </a>
     </div>
@@ -490,7 +490,7 @@
 
   <div class="tic-mobile-nav__footer">
     <a href="#" class="tic-header__btn tic-header__btn--ghost">Connexion</a>
-    <a href="{{ route('hebergement.inscription') }}" class="tic-header__btn tic-header__btn--primary">Commander maintenant</a>
+    <a href="{{ route('hebergement.commander') }}" class="tic-header__btn tic-header__btn--primary">Commander maintenant</a>
   </div>
 </nav>
 

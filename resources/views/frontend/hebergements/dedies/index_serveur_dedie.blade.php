@@ -13,7 +13,7 @@
             <p class="lead host-animate-up delay-2">Déployez vos projets sur une infrastructure fiable et sécurisée.</p>
             <div class="mt-4 host-animate-up delay-3">
                 <a href="#solutions" class="btn btn-primary btn-lg px-4 me-2">Voir les offres</a>
-                <a href="{{ route('hebergement.inscription') }}" class="btn btn-outline-light btn-lg px-4">Commander</a>
+                <a href="{{ route('hebergement.commander') }}" class="btn btn-outline-light btn-lg px-4">Commander</a>
             </div>
         </div>
     </section>

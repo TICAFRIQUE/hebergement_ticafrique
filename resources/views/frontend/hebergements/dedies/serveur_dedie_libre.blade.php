@@ -17,7 +17,7 @@
             <div class="hero-btns animate-up delay-3 mt-4">
                 <a href="#offres" class="btn btn-server-primary">Voir les configurations</a>
                 <span class="root-access-tag ms-lg-3 d-block d-lg-inline-block mt-3 mt-lg-0">
-                    <i class="bi bi-terminal-fill me-2"></i><a href="{{ route('hebergement.inscription') }}">Commander</a>
+                    <i class="bi bi-terminal-fill me-2"></i><a href="{{ route('hebergement.commander') }}">Commander</a>
                 </span>
             </div>
         </div>

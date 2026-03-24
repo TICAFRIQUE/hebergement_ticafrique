@@ -138,17 +138,17 @@
                         <tr class="table-light">
                             <td></td>
                             <td>
-                                <a href="{{ route('hebergement.inscription') }}" class="btn btn-outline-primary w-100">
+                                <a href="{{ route('hebergement.commander') }}" class="btn btn-outline-primary w-100">
                                     Commander
                                 </a>
                             </td>
                             <td>
-                                <a href="{{ route('hebergement.inscription') }}" class="btn btn-primary w-100">
+                                <a href="{{ route('hebergement.commander') }}" class="btn btn-primary w-100">
                                     Commander
                                 </a>
                             </td>
                             <td>
-                                <a href="{{ route('hebergement.inscription') }}" class="btn btn-dark w-100">
+                                <a href="{{ route('hebergement.commander') }}" class="btn btn-dark w-100">
                                     Commander
                                 </a>
                             </td>
