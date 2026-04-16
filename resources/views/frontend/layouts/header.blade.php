@@ -328,15 +328,7 @@
           <a href="{{ url('/') }}" class="tic-nav__link" role="menuitem">Accueil</a>
         </li>
 
-        <li class="tic-nav__item has-dropdown" role="none">
-          <button class="tic-nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
-            Nom de domaine <i class="fa fa-angle-down"></i>
-          </button>
-          <ul class="tic-dropdown" role="menu">
-            <li><a href="{{ route('domaine.researcher') }}" role="menuitem">Recherche de domaine</a></li>
-            <li><a href="{{ route('domaine.transfer') }}" role="menuitem">Transfert</a></li>
-            <li><a href="{{ route('domaine.renew') }}" role="menuitem">Renouvellement</a></li>
-          </ul>
+       
         </li>
 
         <li class="tic-nav__item has-dropdown" role="none">
@@ -346,7 +338,9 @@
           <ul class="tic-dropdown" role="menu">
             <li><a href="{{ route('hebergement.mutualise') }}" role="menuitem">Hébergement Mutualisé</a></li>
             <li><a href="{{ route('hebergement.index_serveur_dedie') }}" role="menuitem">Serveurs Dédiés</a></li>
+            <li><a href="#" role="menuitem">VPS</a></li>
             <li><a href="#" role="menuitem">Reseller Hosting</a></li>
+            <li><a href="#" role="menuitem">Cloud</a></li>
           </ul>
         </li>
 
@@ -382,11 +376,19 @@
           </button>
           <ul class="tic-dropdown" role="menu">
             <li><a href="#" role="menuitem">Sauvegarde</a></li>
-            <li><a href="#" role="menuitem">Certificats SSL</a></li>
-            <li><a href="#" role="menuitem">Protection &amp; Sécurité</a></li>
+            <li><a href="#" role="menuitem">SSL</a></li>
+            <li><a href="#" role="menuitem">Sécurité</a></li>
           </ul>
         </li>
-
+ <li class="tic-nav__item has-dropdown" role="none">
+          <button class="tic-nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Nom de domaine <i class="fa fa-angle-down"></i>
+          </button>
+          <ul class="tic-dropdown" role="menu">
+            <li><a href="{{ route('domaine.researcher') }}" role="menuitem">Recherche de domaine</a></li>
+            <li><a href="{{ route('domaine.transfer') }}" role="menuitem">Transfert</a></li>
+            <li><a href="{{ route('domaine.renew') }}" role="menuitem">Renouvellement</a></li>
+          </ul>
         <li class="tic-nav__item" role="none">
           <a href="https://ticafrique.com" class="tic-nav__link" role="menuitem">Portail</a>
         </li>
